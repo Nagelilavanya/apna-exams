@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://www.apnaexams.com/assets/front_end/css/animate.css" />
+  <link rel="stylesheet" href="assets/animate.css"/>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="topnav mt-4" id="myTopnav">
+      <a href="" class="logohover">
+        <img class="logo-1  wow bounceInRight  animated" src="assets/images/logo_(2) (1).png" />
+      </a>
+
+      <a href="index.html" class="active "><i class="fa fa-home mt-2" aria-hidden="true"></i> Home</a>
+      <a href="about.html"><i class="fa fa-user mt-2" aria-hidden="true"></i> About Us</a>
+      <a href="exampackages.html"><i class="fa fa-clipboard mt-2" aria-hidden="true"></i> Exam Packages</a>
+      <a href="liveexams.html"><i class="fa fa-clipboard mt-2" aria-hidden="true"></i> Live Exams</a>
+      <a href="services.html"><i class="fa fa-users mt-2" aria-hidden="true"></i> Services</a>
+      <a href="blog.html"><i class="fa fa-rss mt-2" aria-hidden="true"></i> Blog</a>
+      <a href="memberlogin.html" class="login mb-2">
+        <button class="btn-1  wow bounceInLeft animated "><i class="fa fa-user-circle-o" aria-hidden="true"></i> Member Login</button>
+      </a>
+
+      <button class="number mt-2  wow bounceInLeft  animated"><i class="fa fa-phone" aria-hidden="true"></i> +91 935678893</button>
+
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+  </header>
+
+  <section class="bg-1">
+    <div class="container">
+      <div class="d-flex menu-responsive">
+        <div class="sub-menu active">
+          <div><i class="fa fa-home" aria-hidden="true"></i></div>
+          Home
+        </div>
+        <div class="sub-menu">
+          <div><i class="fa fa-file-text-o" aria-hidden="true"></i></div>
+          About Us
+        </div>
+        <div class="sub-menu">
+          <div><i class="fa fa-clipboard" aria-hidden="true"></i></div>
+          Exam Packages
+        </div>
+        <div class="sub-menu">
+          <div><i class="fa fa-rss" aria-hidden="true"></i></div>
+          Blog
+        </div>
+        <div class="sub-menu">
+          <div><i class="fa fa-users" aria-hidden="true"></i></div>
+          Services
+        </div>
+        <div class="sub-menu">
+          <div><i class="fa fa-picture-o" aria-hidden="true"></i></div>
+          Gallery
+        </div>
+        <div class="sub-menu">
+          <div><i class="fa fa-users" aria-hidden="true"></i></div>
+          Our Team
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="images-1" src="assets/images/banner1.jpg">
+        </div>
+        <div class="carousel-item">
+          <img class="images-1" src="assets/images/banner2.jpg">
+        </div>
+        <div class="carousel-item">
+          <img class="images-1" src="assets/images/banner3.jpg">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+  <section class="mt-3 container">
+    <div class="text-center splheading">
+      <h4><span class="clr-1"><i class="fa fa-gift" aria-hidden="true"></i>
+          Online Exams</span><span class="text-danger"> Benefits</span></h4>
+      <span class="line text-center"></span>
+
+    </div>
+    <div class="row mt-3">
+      <div class="col-md-3 col-6 text-center para">
+        <img class="rotatediv" src="assets/images/verified1.png" />
+        <p>Trusted Site for online Mock Tests.</p>
+
+      </div>
+      <div class="col-md-3 col-6 text-center para">
+        <img class="rotatediv" src="assets/images/Book-Icon.png" />
+        <p>More number of Study materials available online on our website for preparation.</p>
+
+      </div>
+      <div class="col-md-3 col-6 text-center para">
+        <img class="rotatediv" src="assets/images/tracky-document.png" />
+        <p>The most trusted services Our Apna Exams brand.</p>
+
+      </div>
+      <div class="col-md-3 col-6 text-center para">
+        <img class="rotatediv" src="assets/images/freestock_565142182.jpg" />
+        <p>Certified Faculties available to clear the doubts.
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+
+    <div class="bg-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="text-center splheading mt-4">
+              <h4><span class="clr-1"><i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  Why Choose</span><span class="text-danger"> Us</span></h4>
+              <span class="line text-center"></span>
+            </div>
+
+            <div class="row">
+
+              <div class="col-md-6 mt-3">
+                <div class="d-flex">
+                  <div class="border text-center">
+                    <i class="fa fa-female" aria-hidden="true"></i>
+                  </div>
+                  <div class="ml-3">
+                    <h4>
+                      <span class="clr-1">No.1 &</span>
+                      <span class="text-danger"> Trusted</span>
+                    </h4>
+                    <span>No.1 & most trusted online exam portal.</span>
+                  </div>
+
+                </div>
+
+                <div class="d-flex mt-3">
+                  <div class="border text-center">
+                    <i class="fa fa-file-text" aria-hidden="true"></i>
+                  </div>
+                  <div class="ml-3">
+                    <h4>
+                      <span class="clr-1">Simple &</span>
+                      <span class="text-danger"> Largest</span>
+                    </h4>
+                    <span>We provide online mock test with comprehensive study material to our students.</span>
+                  </div>
+
+                </div>
+
+
+                <div class="d-flex mt-3">
+                  <div class="border text-center">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                  </div>
+                  <div class="ml-3">
+                    <h4>
+                      <span class="clr-1">100% Secure &</span>
+                      <span class="text-danger">Payments</span>
+                    </h4>
+                    <span>Moving your card details to a much more secured place.</span>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="col-md-6 mt-3 ">
+                <div class="d-flex">
+                  <div class="border text-center">
+                    <i class="fa fa-plane" aria-hidden="true"></i>
+                  </div>
+                  <div class="ml-3">
+                    <h4>
+                      <span class="clr-1">Fast &</span>
+                      <span class="text-danger">verified</span>
+                    </h4>
+                    <span>100% verified mobile numbers.</span>
+                  </div>
+
+                </div>
+                <div class="d-flex mt-3">
+                  <div class="border text-center">
+                    <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                  </div>
+                  <div class="ml-3">
+                    <h4>
+                      <span class="clr-1">Trust</span>
+                      <span class="text-danger">Pay</span>
+                    </h4>
+                    <span>100% Payment Protection. Easy Return Policy.</span>
+                  </div>
+
+                </div>
+                <div class="d-flex mt-3">
+                  <div class="border text-center">
+                    <i class="fa fa-life-ring " aria-hidden="true"></i>
+                  </div>
+                  <div class="ml-3">
+                    <h4>
+                      <span class="clr-1">24X7</span>
+                      <span class="text-danger">Support</span>
+                    </h4>
+                    <span>100% Payment Protection. Easy Return Policy.</span>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="text-center btn-2">
+              <button><i class="fa fa-user" aria-hidden="true"></i> Register Free-Get Started!</button>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4 box">
+            <div id="abcd" class="carousel slide" data-ride="carousel">
+
+              <!-- Indicators -->
+              <ul class="carousel-indicators">
+                <li data-target="#abcd" data-slide-to="0" class="active"></li>
+                <li data-target="#abcd" data-slide-to="1"></li>
+                <li data-target="#abcd" data-slide-to="2"></li>
+              </ul>
+
+              <!-- The slideshow -->
+              <div class="carousel-inner ">
+                <div class="carousel-item active">
+                  <img class="wid" src="assets/images/online-view.jpg">
+                </div>
+                <div class="carousel-item">
+                  <img class="wid" src="assets/images/online.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="wid" src="assets/images/painting.jpg">
+                </div>
+                <div class="carousel-item">
+                  <img class="wid" src="assets/images/exam4.jpg">
+                </div>
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#abcd" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#abcd" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+  </section>
+
+  <section>
+    <div class="header text-center">
+      <h2 class="text-center text-info">Most Trusted Online Exams Brand in India</h2>
+      <h5 class="text-center text-info">With 140+ branches across India, Largest Network of its Kind</h5>
+      <button class="btn-3"><i class="fa fa-search" aria-hidden="true"></i> Register Free Now</button>
+    </div>
+  </section>
+  <div class="text-center splheading mt-4">
+    <h4><span class="clr-1"><i class="fa fa-clipboard" aria-hidden="true"></i>
+        Exam</span><span class="text-danger"> Packages</span></h4>
+    <span class="line text-center"></span>
+  </div>
+  <section class="container mt-3">
+    <div class="row">
+      <div class="col-md-3 col-6">
+        <div class="card-1 text-center zoom-in">
+          <h4 class="tag-1">TEST CATRGORY</h4>
+          <p class="tag-2">1 Packages</p>
+          <h6>TESTING</h6>
+          <div>
+            <button class="btn-4 cabbtn1-600"><span><i class="fa fa-search-plus" aria-hidden="true"></i> View More</span></button>
+          </div>
+        </div>
+        <img class="sc-img" src="assets/images/search-shadow.png"/>
+
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="card-1 text-center zoom-in">
+          <h4 class="tag-1">GK NEWS</h4>
+          <p class="tag-2">1 Packages</p>
+          <div class="mt-5">
+            <button class="btn-4 cabbtn1-600"><span><i class="fa fa-search-plus" aria-hidden="true"></i> View More</span></button>
+          </div>
+        </div>
+        <img class="sc-img" src="assets/images/search-shadow.png"/>
+
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="card-1 text-center zoom-in">
+          <h4 class="tag-1">GSR TESTS</h4>
+          <p class="tag-2">1 Packages</p>
+          <h6>exams</h6>
+          <div>
+            <button class="btn-4 cabbtn1-600"><span><i class="fa fa-search-plus" aria-hidden="true"></i> View More</span></button>
+          </div>
+        </div>
+        <img class="sc-img" src="assets/images/search-shadow.png"/>
+
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="card-1 text-center zoom-in">
+          <h4 class="tag-1">PRACTICE</h4>
+          <p class="tag-2">1 Packages</p>
+          <div class="mt-5">
+            <button class="btn-4 cabbtn1-600"><span><i class="fa fa-search-plus" aria-hidden="true"></i> View More</span></button>
+          </div>
+        </div>
+        <img class="sc-img" src="assets/images/search-shadow.png"/>
+
+
+      </div>
+
+
+  </section>
+  <div class="text-center">
+    <button class="btn-5 cabbtn1-600"><span><i class="fa fa-search-plus" aria-hidden="true"></i> More Exams</span></button>
+  </div>
+  <div class="text-center splheading mt-4">
+    <h4><span class="clr-1"><i class="fa fa-user-plus" aria-hidden="true"></i>
+        Our</span><span class="text-danger"> Team</span></h4>
+    <span class="line text-center"></span>
+  </div>
+
+  <section class="container">
+
+    <div class="row mt-3 space">
+
+      <div class="col-md-2 col-6">
+        <div class="card-2 text-center p-3 zoom-in">
+          <div class="card">
+            <img src="assets/images/dave-hoff (1).jpg" />
+            <h5 class="clr-1">Dave</h5>
+            <h6 class="clr-3">Senior Faculty</h6>
+            <button class="btn-6 cabbtn1-600"><span><i class="fa fa-search-plus" aria-hidden="true"></i>More Info</span></button>
+
+          </div>
+        </div>
+        <img class="sc-img" src="assets/images/search-shadow.png"/>
+      </div>
+      <div class="col-md-2 col-6">
+        <div class="card-2 text-center p-3 zoom-in">
+          <div class="card">
+            <img src="assets/images/Abbott.jpg" />
+            <h5 class="clr-1">Abbott</h5>
+            <h6 class="clr-3">Senior Faculty</h6>
+            <button class="btn-6 cabbtn1-600"><span><i class="fa fa-search-plus" aria-hidden="true"></i> More Info</span></button>
+
+          </div>
+
+
+        </div>
+        <img class="sc-img" src="assets/images/search-shadow.png"/>
+      </div>
+      <div class="col-md-2 col-6">
+        <div class="card-2 text-center p-3 zoom-in">
+          <div class="card">
+            <img src="assets/images/sant.jpg" />
+            <h5 class="clr-1">Sant</h5>
+            <h6 class="clr-3">Senior Faculty</h6>
+            <button class="btn-6 cabbtn1-600"><span><i class="fa fa-search-plus" aria-hidden="true"></i> More Info</span></button>
+          </div>
+        </div>
+        <img class="sc-img" src="assets/images/search-shadow.png"/>
+      </div>
+      <div class="col-md-2 col-6">
+        <div class="card-2 text-center p-3 zoom-in">
+          <div class="card">
+            <img src="assets/images/kirsty-brimelow.jpg" />
+            <h5 class="clr-1">Kristy</h5>
+            <h6 class="clr-3">Senior Faculty</h6>
+            <button class="btn-6 cabbtn1-600"><span><i class="fa fa-search-plus" aria-hidden="true"></i> More Info</span></button>
+
+          </div>
+
+
+        </div>
+        <img class="sc-img" src="assets/images/search-shadow.png"/>
+      </div>
+      <div class="col-md-2 col-6">
+        <div class="card-2 text-center p-3 zoom-in">
+          <div class="card">
+            <img src="assets/images/david.jpg" />
+            <h5 class="clr-1">David</h5>
+            <h6 class="clr-3">Senior Faculty</h6>
+            <button class="btn-6 cabbtn1-600"><span><i class="fa fa-search-plus" aria-hidden="true"></i> More Info</span></button>
+
+          </div>
+
+
+        </div>
+        <img class="sc-img" src="assets/images/search-shadow.png"/>
+      </div>
+      <div class="col-md-2 col-6">
+        <div class="card-2 text-center p-3 zoom-in">
+          <div class="card">
+            <img src="assets/images/gra.jpg" />
+            <h5 class="clr-1">Gra</h5>
+            <h6 class="clr-3">Senior Faculty</h6>
+            <button class="btn-6 cabbtn1-600"><span><i class="fa fa-search-plus" aria-hidden="true"></i> More Info</span></button>
+
+          </div>
+
+
+        </div>
+        <img class="sc-img" src="assets/images/search-shadow.png"/>
+      </div>
+
+
+
+
+    </div>
+
+    </div>
+    <div class="text-center">
+      <button class="btn-5 cabbtn1-600"><span><i class="fa fa-search-plus" aria-hidden="true"></i> More Team</span></button>
+    </div>
+  </section>
+
+<section>
+  <div class="bg-img2">
+  <div class="text-center splheading mt-4">
+    <h4><span class="clr-1"><i class="fa fa-user" aria-hidden="true"></i>
+        Our</span><span class="text-danger"> Services</span></h4>
+    <span class="line text-center"></span>
+  </div>
+  <div class="owl-carousel mt-4 container ">
+    <div class="item ">
+      <div class="services text-center">
+        <img src="assets/images/online exam.jpg"/>
+        <h3>Online Mock Test</h3>
+
+      </div>
+      <img class="sc-img1" src="assets/images/search-shadow.png"/>
+
+    </div>
+    
+    <div class="item">
+      <div class="services text-center">
+        <img src="assets/images/support.jpg"/>
+        <h3>We are always Ready</h3>
+
+      </div>
+      <img class="sc-img1" src="assets/images/search-shadow.png"/>
+
+    </div>
+    
+    <div class="item">
+      <div class="services text-center">
+        <img src="assets/images/online exam.jpg"/>
+        <h3>Online Mock Test</h3>
+
+      </div>
+      <img class="sc-img1" src="assets/images/search-shadow.png"/>
+
+    </div>
+    <div class="item">
+      <div class="services text-center">
+        <img src="assets/images/support.jpg"/>
+        <h3>We are always Ready</h3>
+
+      </div>
+      <img class="sc-img1" src="assets/images/search-shadow.png"/>
+
+    </div>
+    
+    
+  </div>
+  <div class="text-center">
+    <button class="btn-5 cabbtn1-600"><span><i class="fa fa-search-plus" aria-hidden="true"></i> More Services</span></button>
+  </div>
+</div>
+</section>
+
+<section>
+  <div class="bg-img2">
+  <div class="text-center splheading pt-4">
+    <h4><span class="clr-1"><i class="fa fa-user" aria-hidden="true"></i>
+        Our</span><span class="text-danger"> Testimonials</span></h4>
+    <span class="line text-center"></span>
+  </div>
+
+
+<div id="demo2" class="carousel slide container mt-3" data-ride="carousel">
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col-md-6 col-6">
+          <div class="card-3">
+          <div class="row">
+            <div class="col-md-4">
+              <img class="banner-img" src="assets/images/thumb_dir-issr.jpg"/>
+            </div>
+            <div class="col-md-8 ">
+              <h4>Dir-issr</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nulla odio quas repellendus perferendis iure perspiciatis asperiores, ipsum atque aspernatur! ipsum dolor sit amet, consectetur adipisicing elit. Provident beatae rem dolorem id hic, suscipit commodi illo repellat consequatur</p>
+            </div>
+
+          </div>
+        </div>
+        <img class="sc-img2" src="assets/images/search-shadow.png"/>
+
+
+        </div>
+        <div class="col-md-6 col-6">
+          <div class="card-3">
+            <div class="row">
+              <div class="col-md-4">
+                <img class="banner-img" src="assets/images/faculty1.jpg"/>
+              </div>
+              <div class="col-md-8">
+                <h4>Pr.Wood</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nulla odio quas repellendus perferendis iure perspiciatis asperiores, ipsum atque aspernatur! ipsum dolor sit amet, consectetur adipisicing elit. Provident beatae rem dolorem id hic, suscipit commodi illo repellat consequatur</p>
+              </div>
+  
+            </div>
+          </div>
+          <img class="sc-img2" src="assets/images/search-shadow.png"/>
+  
+        </div>
+       
+
+      </div>
+      
+      
+    </div>
+    
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-md-6 col-6">
+          <div class="card-3">
+          <div class="row">
+            <div class="col-md-4">
+              <img class="banner-img" src="assets/images/thumb_dir-issr.jpg"/>
+            </div>
+            <div class="col-md-8">
+              <h4>Dir-issr</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nulla odio quas repellendus perferendis iure perspiciatis asperiores, ipsum atque aspernatur! ipsum dolor sit amet, consectetur adipisicing elit. Provident beatae rem dolorem id hic, suscipit commodi illo repellat consequatur</p>
+            </div>
+
+          </div>
+        </div>
+        <img class="sc-img2" src="assets/images/search-shadow.png"/>
+
+
+        </div>
+        <div class="col-md-6 col-6">
+          <div class="card-3">
+            <div class="row">
+              <div class="col-md-4">
+                <img class="banner-img" src="assets/images/faculty1.jpg"/>
+              </div>
+              <div class="col-md-8">
+                <h4>Pr.Wood</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nulla odio quas repellendus perferendis iure perspiciatis asperiores, ipsum atque aspernatur! ipsum dolor sit amet, consectetur adipisicing elit. Provident beatae rem dolorem id hic, suscipit commodi illo repellat consequatur</p>
+              </div>
+  
+            </div>
+            
+
+          </div>
+          <img class="sc-img2" src="assets/images/search-shadow.png"/>
+         
+  
+        </div>
+       
+
+      </div>
+      
+      
+    </div>
+    
+  </div>
+
+ 
+</div>
+
+
+<div class="text-center">
+  <button class="btn-5 cabbtn1-600"><span><i class="fa fa-search-plus" aria-hidden="true"></i> More Testimonials</span></button>
+</div>
+</div>
+</section>
+
+<div class="text-center splheading pt-4">
+  <h4><span class="clr-1"><i class="fa fa-mobile" aria-hidden="true"></i>
+      Download Our</span><span class="text-danger"> Mobile App Now</span></h4>
+  <span class="line text-center"></span>
+</div>
+<section>
+<div class="container mt-3">
+  <div class="row">
+    <div class="col-md-6">
+      <img class="mbl-img" src="assets/images/mobapp.png"/>
+    </div>
+    <div class="col-md-6">
+      <div class="para-1 mt-3">
+      <p>Download our app for the fastest, most convenient way</p>
+      <p>Download our app for the fastest, most convenient way</p>
+      <p>Download our app for the fastest, most convenient way</p>
+      <p>Download our app for the fastest, most convenient way</p>
+    </div>
+    <div class="row">
+    <div class="col-md-6 col-6">
+      <img class="google" src="assets/images/google-play-store.png"/>
+      <img class="sc-img3" src="assets/images/search-shadow.png"/>
+    </div>
+    
+    <div class="col-md-6 col-6">
+      <img class="app" src="assets/images/applestore.png"/>
+      <img class="sc-img3" src="assets/images/search-shadow.png"/>
+    </div>
+    </div>
+
+  </div>
+
+</div>
+</section>
+<footer class="bg-footer mt-3">
+  <div class="container">
+  <div class="text-center p-2">
+    <a href="">home</a> |
+    <a href="">about us</a> |
+    <a href="">blog</a> |
+    <a href="">our team</a> |
+    <a href="">services</a> |
+    <a href="">exam packages</a> |
+    <a href="">faqs</a> |
+    <a href="">testimonials</a> |
+    <a href="">gallary</a> |
+    <a href="">careers</a> |
+    <a href="">contact us</a> |
+    <br>
+    <a href="">terms& conditions</a> |
+    <a href="">privacy policy</a> |
+    <a href="">concellation policy</a> |
+    <a href="">return policy</a> |
+  </div>
+  
+  <div class="row">
+    <div class="col-md-4 mt-5 ">
+      <div class="bank-img desk-top">
+      <img src="assets/images/visa.png"/>
+      <img src="assets/images/paytm.jpg"/>
+      <img src="assets/images/paypal.png"/>
+      <img src="assets/images/american.png"/>
+      <img src="assets/images/mastercard.png"/>
+    </div>
+  </div>
+    
+    <div class="col-md-4 mt-4 desk-top1 order-md-3">
+      <div class="social-icons">
+      <i class="fa fa-facebook-official fb-s" data-toggle="tooltip" data-placement="top" title="facebook"></i>
+      <i class="fa fa-twitter tw-s" data-toggle="tooltip" data-placement="top" title="twitter"></i>
+      <i class="fa fa-linkedin li-s" data-toggle="tooltip" data-placement="top" title="linkedin"></i>
+      <i class="fa fa-youtube-play yo-s" data-toggle="tooltip" data-placement="top" title="youtube"></i>
+      <i class="fa fa-instagram in-s" data-toggle="tooltip" data-placement="top" title="instagram"></i>
+    </div>
+    </div>
+    <div class="col-md-4 mt-4 text-center order-md-2">
+      <span>Design & Developed By</span>
+      <h5>WWW.SPARKINFOSYS.COM</h5>
+    </div>
+
+    </div>
+
+  </div>
+</div>
+</footer>
+  <br><script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".owl-carousel").owlCarousel({
+        items: 4, // Set the number of items to display
+        loop: true, // Enable loop mode
+        margin: 10, // Set the margin between items
+        autoplay: true, // Enable autoplay
+        autoplayTimeout: 3000, // Set autoplay interval in milliseconds
+        responsive:{
+          0:{
+            items:1
+          },
+          600:{
+            items:4
+          },
+          1000:{
+            items:4
+          }
+        }
+      });
+    });
+  </script>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+
+</body>
+
+</html>

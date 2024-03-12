@@ -1,0 +1,61 @@
+.head{
+    background-color: rgb(71, 117, 163);
+    color: white;
+
+}
+.text-1{
+    font-size: 50px;
+}
+.icon{
+    color: white !important;
+    /* padding-left: 60px; */
+    text-align: right;
+    font-size: 40px;
+    
+}
+.head-1{
+    background-color: black;
+    color: white;
+}
+.hey{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 90px;
+    margin-top: 20px
+}
+.img-1{
+    height: 500px;
+    width: 100%;
+}
+.description{
+    font-size: 15px;
+    line-height: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-1{
+    height: 40px;
+    width: 20%;
+    border-radius: 10px;
+    background-color:  rgb(71, 117, 163);
+    border: 1px solid  rgb(71, 117, 163);
+    color: white;
+    
+
+}
+.btn-1 a{
+    text-decoration: none;
+    color: white;
+}
+.btn-1:hover{
+    background-color: rgb(251, 110, 9);
+    border: 1px solid rgb(243, 97, 7);
+}
+.btn-2{
+    background-color: black;
+    border: 1px solid black;
+}
+.btn-2 a{
+    color: white;
+    text-decoration: none;
+}
